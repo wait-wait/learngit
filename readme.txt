@@ -7,3 +7,4 @@ Git is free software distributed under the CPL
 Git has a mutalbe index called stage
 
 Git track change
+Creating a new branch is quick
