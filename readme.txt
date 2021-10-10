@@ -8,3 +8,4 @@ Git has a mutalbe index called stage
 
 Git track change
 Creating a new branch is quick
+Create a new branch is quick & simple
