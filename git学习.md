@@ -382,7 +382,41 @@ git tag v1.0
 
 ### 查看标签
 
+注意这里边的标签不是按照时间排列的，是按照字母序排列的
+
 ```shell
 git tag
 ```
+
+### 给之前的补加标签
+
+``` shell
+git tag v0.9 f52c633 # 后边的是版本号
+```
+
+### 查看标签对应信息
+
+这个会显示对应`tag`的版本的信息
+
+```shell
+git show v1.0 # 后边的是版本号
+```
+
+### 删除标签
+
+```shell
+git tag -d tag_name 
+```
+
+---
+
+## 自定义Git
+
+### 让Git显示颜色
+
+```shell
+git config --global color.ui true
+```
+
+
 
