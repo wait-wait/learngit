@@ -213,7 +213,7 @@ git push origin master
 
 在清除远端的库之前，我们要先用`git remote -v`查看远程的库信息
 
-然后根据名字进行清除
+然后根据名字进行清除c
 
 ```git
 git remote rm origin
